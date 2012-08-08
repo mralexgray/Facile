@@ -34,7 +34,7 @@
 		[item setPaletteLabel:@"Search"];
 		NSSearchField *search = [[[NSSearchField alloc] init] autorelease];
 		[[search cell] setScrollable:YES];
-		[search bind:@"predicate" toObject:data withKeyPath:@"filterPredicate" options:[NSDictionary dictionaryWithObjects:[NSArray arrayWithObjects:@"Search",@"message contains[c] $value OR name contains[c] $value",nil] forKeys:[NSArray arrayWithObjects:NSDisplayNameBindingOption,NSPredicateFormatBindingOption,nil]]];
+		[search bind:@"predicate" toObject:data withKeyPath:@"filterPredicate" options:[NSDictionary dictionaryWithObjects:@[@"Search",@"message contains[c] $value OR name contains[c] $value"] forKeys:@[NSDisplayNameBindingOption,NSPredicateFormatBindingOption]]];
 		[item setMinSize:NSMakeSize(32.0,32.0)];
 		[item setMaxSize:NSMakeSize(300.0,32.0)];
 		[item setView:search];
@@ -43,11 +43,11 @@
 }
 
 - (NSArray *)toolbarAllowedItemIdentifiers:(NSToolbar *)toolbar{
-	return [NSArray arrayWithObjects:@"actionMenuItem",NSToolbarFlexibleSpaceItemIdentifier,@"searchItem",nil];
+	return @[@"actionMenuItem",NSToolbarFlexibleSpaceItemIdentifier,@"searchItem"];
 }
 
 - (NSArray *)toolbarDefaultItemIdentifiers:(NSToolbar *)toolbar{
-	return [NSArray arrayWithObjects:@"actionMenuItem",NSToolbarFlexibleSpaceItemIdentifier,@"searchItem",nil];
+	return @[@"actionMenuItem",NSToolbarFlexibleSpaceItemIdentifier,@"searchItem"];
 }
 
 @end

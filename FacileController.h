@@ -6,15 +6,16 @@
 //  Copyright 2007 Eli Dourado. All rights reserved.
 //
 
-#import <Sparkle/Sparkle.h>
+
 #import <Cocoa/Cocoa.h>
 #import <MKAbeFook/MKAbeFook.h>
+#import <MKAbeFook/MKFacebook.h>
 #import <Growl/Growl.h>
 #import "FacileCell.h"
 #import "FacileCellDelegate.h"
 #import "FacileToolbarDelegate.h"
 
-@interface FacileController : NSObject <GrowlApplicationBridgeDelegate> {
+@interface FacileController : NSObject <GrowlApplicationBridgeDelegate, MKFacebookDelegate> {
 	NSStatusItem *statusItem;
 	NSTimer *mainTimer;
 	NSUserDefaults *prefs;
@@ -22,7 +23,7 @@
 	MKFacebook *fb;
 	NSArray *statusSortOrder;
 	NSToolbar *toolbar;
-	IBOutlet SUUpdater *updater;
+
 	IBOutlet NSPanel *mainWindow;
 	IBOutlet NSTextField *statusField;
 	IBOutlet NSProgressIndicator *progress;

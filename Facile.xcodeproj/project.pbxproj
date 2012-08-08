@@ -15,13 +15,9 @@
 		45A322CB0CEF8B4F00B5BF30 /* FacileCell.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 45A322C90CEF8B4F00B5BF30 /* FacileCell.h */; };
 		45A322CC0CEF8B4F00B5BF30 /* FacileCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 45A322CA0CEF8B4F00B5BF30 /* FacileCell.m */; };
 		45C01DF60CFE0AA600FE30D8 /* default.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C01DF50CFE0AA600FE30D8 /* default.png */; };
-		45CBFE390D0B9EB5005F5608 /* Sparkle.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CBFE380D0B9EB5005F5608 /* Sparkle.framework */; };
-		45CBFE470D0B9EF0005F5608 /* Sparkle.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 45CBFE380D0B9EB5005F5608 /* Sparkle.framework */; };
 		45CD16500CF0E6250014AF69 /* Growl.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45CD164F0CF0E6250014AF69 /* Growl.framework */; };
 		45CD16530CF0E6280014AF69 /* Growl.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 45CD164F0CF0E6250014AF69 /* Growl.framework */; };
 		45CD16720CF0E98F0014AF69 /* Growl Registration Ticket.growlRegDict in Resources */ = {isa = PBXBuildFile; fileRef = 45CD16710CF0E98F0014AF69 /* Growl Registration Ticket.growlRegDict */; };
-		45DD14C20CEE5FC5005CEB78 /* MKAbeFook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45DD14C10CEE5FC5005CEB78 /* MKAbeFook.framework */; };
-		45DD14E20CEE6016005CEB78 /* MKAbeFook.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 45DD14C10CEE5FC5005CEB78 /* MKAbeFook.framework */; };
 		45DD14E60CEE6042005CEB78 /* FacileController.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 45DD14E40CEE6042005CEB78 /* FacileController.h */; };
 		45DD14E70CEE6042005CEB78 /* FacileController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45DD14E50CEE6042005CEB78 /* FacileController.m */; };
 		45FEB56C0D0E46720047B977 /* FacileCellDelegate.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 45FEB56A0D0E46720047B977 /* FacileCellDelegate.h */; };
@@ -30,11 +26,30 @@
 		45FEB6070D0E4A880047B977 /* FacileToolbarDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45FEB6050D0E4A880047B977 /* FacileToolbarDelegate.m */; };
 		770B37ED0679A11B001EADE2 /* Facile_DataModel.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 770B37EC0679A11B001EADE2 /* Facile_DataModel.xcdatamodel */; };
 		77C8280E06725ACE000B614F /* Facile_AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77C8280C06725ACE000B614F /* Facile_AppDelegate.m */; };
+		7B6CF45115D2BF580018A0D7 /* MKAbeFook.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B6CF44E15D2BF240018A0D7 /* MKAbeFook.framework */; };
+		7B6CF45315D2BF710018A0D7 /* MKAbeFook.framework in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7B6CF44E15D2BF240018A0D7 /* MKAbeFook.framework */; };
 		8D11072A0486CEB800E47090 /* MainMenu.nib in Resources */ = {isa = PBXBuildFile; fileRef = 29B97318FDCFA39411CA2CEA /* MainMenu.nib */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7B6CF44D15D2BF240018A0D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B6CF44515D2BF230018A0D7 /* MKAbeFook.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8DC2EF5B0486A6940098B216;
+			remoteInfo = MKAbeFook;
+		};
+		7B6CF44F15D2BF420018A0D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7B6CF44515D2BF230018A0D7 /* MKAbeFook.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 8DC2EF4F0486A6940098B216;
+			remoteInfo = MKAbeFook;
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		45DD14E00CEE5FFE005CEB78 /* CopyFiles */ = {
@@ -43,11 +58,10 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				45CBFE470D0B9EF0005F5608 /* Sparkle.framework in CopyFiles */,
 				45CD16530CF0E6280014AF69 /* Growl.framework in CopyFiles */,
-				45DD14E20CEE6016005CEB78 /* MKAbeFook.framework in CopyFiles */,
 				45DD14E60CEE6042005CEB78 /* FacileController.h in CopyFiles */,
 				45A322CB0CEF8B4F00B5BF30 /* FacileCell.h in CopyFiles */,
+				7B6CF45315D2BF710018A0D7 /* MKAbeFook.framework in CopyFiles */,
 				45FEB56C0D0E46720047B977 /* FacileCellDelegate.h in CopyFiles */,
 				45FEB6060D0E4A880047B977 /* FacileToolbarDelegate.h in CopyFiles */,
 			);
@@ -71,10 +85,9 @@
 		45A322C90CEF8B4F00B5BF30 /* FacileCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacileCell.h; sourceTree = "<group>"; };
 		45A322CA0CEF8B4F00B5BF30 /* FacileCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacileCell.m; sourceTree = "<group>"; };
 		45C01DF50CFE0AA600FE30D8 /* default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = default.png; sourceTree = "<group>"; };
-		45CBFE380D0B9EB5005F5608 /* Sparkle.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Sparkle.framework; sourceTree = "<group>"; };
 		45CD164F0CF0E6250014AF69 /* Growl.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Growl.framework; sourceTree = "<group>"; };
 		45CD16710CF0E98F0014AF69 /* Growl Registration Ticket.growlRegDict */ = {isa = PBXFileReference; fileEncoding = 30; lastKnownFileType = text.xml; path = "Growl Registration Ticket.growlRegDict"; sourceTree = "<group>"; };
-		45DD14C10CEE5FC5005CEB78 /* MKAbeFook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = MKAbeFook.framework; sourceTree = "<group>"; };
+		45DD14C10CEE5FC5005CEB78 /* MKAbeFook.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MKAbeFook.framework; path = ../MKAbeFook/build/Release/MKAbeFook.framework; sourceTree = "<group>"; };
 		45DD14E40CEE6042005CEB78 /* FacileController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacileController.h; sourceTree = "<group>"; };
 		45DD14E50CEE6042005CEB78 /* FacileController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FacileController.m; sourceTree = "<group>"; };
 		45FEB56A0D0E46720047B977 /* FacileCellDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FacileCellDelegate.h; sourceTree = "<group>"; };
@@ -85,6 +98,7 @@
 		77C82804067257F0000B614F /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = /System/Library/Frameworks/CoreData.framework; sourceTree = "<absolute>"; };
 		77C8280B06725ACE000B614F /* Facile_AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Facile_AppDelegate.h; sourceTree = "<group>"; };
 		77C8280C06725ACE000B614F /* Facile_AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Facile_AppDelegate.m; sourceTree = "<group>"; };
+		7B6CF44515D2BF230018A0D7 /* MKAbeFook.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = MKAbeFook.xcodeproj; path = ../MKAbeFook/MKAbeFook.xcodeproj; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Facile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Facile.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -95,9 +109,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */,
-				45DD14C20CEE5FC5005CEB78 /* MKAbeFook.framework in Frameworks */,
 				45CD16500CF0E6250014AF69 /* Growl.framework in Frameworks */,
-				45CBFE390D0B9EB5005F5608 /* Sparkle.framework in Frameworks */,
+				7B6CF45115D2BF580018A0D7 /* MKAbeFook.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -124,7 +137,6 @@
 		1058C7A0FEA54F0111CA2CBB /* Linked Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				45CBFE380D0B9EB5005F5608 /* Sparkle.framework */,
 				1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */,
 			);
 			name = "Linked Frameworks";
@@ -153,6 +165,7 @@
 		29B97314FDCFA39411CA2CEA /* Facile */ = {
 			isa = PBXGroup;
 			children = (
+				7B6CF44515D2BF230018A0D7 /* MKAbeFook.xcodeproj */,
 				7756732906782D8800D1FEB8 /* Models */,
 				080E96DDFE201D6D7F000001 /* Classes */,
 				29B97315FDCFA39411CA2CEA /* Other Sources */,
@@ -206,6 +219,14 @@
 			name = Models;
 			sourceTree = "<group>";
 		};
+		7B6CF44615D2BF230018A0D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7B6CF44E15D2BF240018A0D7 /* MKAbeFook.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -221,6 +242,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				7B6CF45015D2BF420018A0D7 /* PBXTargetDependency */,
 			);
 			name = Facile;
 			productInstallPath = "$(HOME)/Applications";
@@ -235,15 +257,35 @@
 			isa = PBXProject;
 			buildConfigurationList = 26FC0A880875C7B200E6366F /* Build configuration list for PBXProject "Facile" */;
 			compatibilityVersion = "Xcode 2.4";
+			developmentRegion = English;
 			hasScannedForEncodings = 1;
+			knownRegions = (
+				en,
+			);
 			mainGroup = 29B97314FDCFA39411CA2CEA /* Facile */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 7B6CF44615D2BF230018A0D7 /* Products */;
+					ProjectRef = 7B6CF44515D2BF230018A0D7 /* MKAbeFook.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				8D1107260486CEB800E47090 /* Facile */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		7B6CF44E15D2BF240018A0D7 /* MKAbeFook.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = MKAbeFook.framework;
+			remoteRef = 7B6CF44D15D2BF240018A0D7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		8D1107290486CEB800E47090 /* Resources */ = {
@@ -281,6 +323,14 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		7B6CF45015D2BF420018A0D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MKAbeFook;
+			targetProxy = 7B6CF44F15D2BF420018A0D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin PBXVariantGroup section */
 		089C165CFE840E0CC02AAC07 /* InfoPlist.strings */ = {
 			isa = PBXVariantGroup;
@@ -304,18 +354,20 @@
 		26FC0A850875C7B200E6366F /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
-				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1 = x86_64;
 				COPY_PHASE_STRIP = NO;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_3)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
 				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)\"";
 				FRAMEWORK_SEARCH_PATHS_QUOTED_3 = "\"$(SRCROOT)\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../MKAbeFook/build/Release\"";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
@@ -326,7 +378,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = Facile;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 				ZERO_LINK = YES;
 			};
@@ -335,17 +387,19 @@
 		26FC0A860875C7B200E6366F /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ARCHS = "$(ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1)";
-				ARCHS_STANDARD_32_BIT_PRE_XCODE_3_1 = "ppc i386";
+				ARCHS = "$(ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1)";
+				ARCHS_STANDARD_64_BIT_PRE_XCODE_3_1 = x86_64;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_1)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_2)",
 					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_3)",
+					"$(FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1)",
 				);
 				FRAMEWORK_SEARCH_PATHS_QUOTED_1 = "\"$(SRCROOT)\"";
 				FRAMEWORK_SEARCH_PATHS_QUOTED_2 = "\"$(SRCROOT)\"";
 				FRAMEWORK_SEARCH_PATHS_QUOTED_3 = "\"$(SRCROOT)\"";
+				FRAMEWORK_SEARCH_PATHS_QUOTED_FOR_TARGET_1 = "\"$(SRCROOT)/../MKAbeFook/build/Release\"";
 				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
 				GCC_GENERATE_DEBUGGING_SYMBOLS = NO;
 				GCC_MODEL_TUNING = G5;
@@ -355,7 +409,7 @@
 				INFOPLIST_FILE = Info.plist;
 				INSTALL_PATH = "$(HOME)/Applications";
 				PRODUCT_NAME = Facile;
-				SDKROOT = /Developer/SDKs/MacOSX10.5.sdk;
+				SDKROOT = macosx;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;

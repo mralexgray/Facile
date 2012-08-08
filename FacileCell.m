@@ -86,15 +86,15 @@
 	NSColor* primaryColor   = [self isHighlighted] ? [NSColor alternateSelectedControlTextColor] : (elementDisabled? [NSColor disabledControlTextColor] : [NSColor textColor]);
 	NSString* primaryText   = [[self dataDelegate] primaryTextForCell:self data: data];
 	
-	NSDictionary* primaryTextAttributes = [NSDictionary dictionaryWithObjectsAndKeys: primaryColor, NSForegroundColorAttributeName,
-		[NSFont systemFontOfSize:13], NSFontAttributeName, nil];	
+	NSDictionary* primaryTextAttributes = @{NSForegroundColorAttributeName: primaryColor,
+		NSFontAttributeName: [NSFont systemFontOfSize:13]};	
 //	[primaryText drawAtPoint:NSMakePoint(cellFrame.origin.x+cellFrame.size.height+10, cellFrame.origin.y) withAttributes:primaryTextAttributes];
 	[primaryText drawAtPoint:NSMakePoint(cellFrame.origin.x+60, cellFrame.origin.y) withAttributes:primaryTextAttributes];
 	
 	NSColor* secondaryColor = [self isHighlighted] ? [NSColor alternateSelectedControlTextColor] : [NSColor disabledControlTextColor];
 	NSString* secondaryText = [[self dataDelegate] secondaryTextForCell:self data: data];
-	NSDictionary* secondaryTextAttributes = [NSDictionary dictionaryWithObjectsAndKeys: secondaryColor, NSForegroundColorAttributeName,
-		[NSFont systemFontOfSize:10], NSFontAttributeName, nil];	
+	NSDictionary* secondaryTextAttributes = @{NSForegroundColorAttributeName: secondaryColor,
+		NSFontAttributeName: [NSFont systemFontOfSize:10]};	
 //	[secondaryText drawAtPoint:NSMakePoint(cellFrame.origin.x+cellFrame.size.height+10, cellFrame.origin.y+cellFrame.size.height/2) 
 //				withAttributes:secondaryTextAttributes];
 	
